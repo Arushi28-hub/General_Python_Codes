@@ -117,6 +117,17 @@ def decimal_to_binary(decimal):
 # Example usage:
 decimal_number = int(input("Enter a decimal number: "))
 print(f"The binary equivalent is: {decimal_to_binary(decimal_number)}")
+'''Random Module'''
+import random
+# Generate a single random number between 1 and 100
+random_number = random . randint (1 , 100)
+print (" Random number between 1 and 100: ", random_number )
+# Generate a list of 10 random numbers
+random_numbers = [ random . randint (1 , 100) for _ in range (10) ]
+print (" List of 10 random numbers :", random_numbers )
+# Generate a random float between 0 and 1
+random_float = random . random ()
+print (" Random float between 0 and 1:", random_float )
 
 
 
